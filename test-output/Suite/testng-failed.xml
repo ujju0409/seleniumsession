@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AmzoneTest(failed)">
+    <classes>
+      <class name="TestngDay1.AmzoneTest">
+        <methods>
+          <include name="serchTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="titleTest"/>
+          <include name="urlTest"/>
+        </methods>
+      </class> <!-- TestngDay1.AmzoneTest -->
+    </classes>
+  </test> <!-- AmzoneTest(failed) -->
+  <test thread-count="5" name="OpenCartTest(failed)">
+    <classes>
+      <class name="TestngDay1.DemoOpenCartTest">
+        <methods>
+          <include name="titleTest"/>
+          <include name="orderHistory"/>
+          <include name="serchTest"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="setup"/>
+          <include name="changePassword"/>
+          <include name="afflilateInformation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestngDay1.DemoOpenCartTest -->
+    </classes>
+  </test> <!-- OpenCartTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

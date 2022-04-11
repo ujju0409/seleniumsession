@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"   >
+
+  <test name ="AmzoneTest">
+ 
+    <classes>
+      <class name="TestngDay1.AmzoneTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name ="OpenCartTest">
+   
+    <classes>
+      <class name="TestngDay1.DemoOpenCartTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
